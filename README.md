@@ -517,23 +517,52 @@ These macros help you detect communication errors related to framing and data ov
 
 # 🔗 Resources
   Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/TJEfbymLoTs">aKaReZa 66 – AVR, Communication, USART - Part A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about USART features and specifications in the ATMega328 microcontroller, including baud rate calculation, registers, single character and string transmission, escape sequences, data frames, and differences in simulation and practical testing.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/TJEfbymLoTs">
+        <img src="https://img.youtube.com/vi/TJEfbymLoTs/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 66 – AVR, Communication, USART - Part A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/HWJqS9NjYIA">aKaReZa 67 – AVR, Communication, USART - Part B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continuation of USART communication, discussing escape sequences, byte reception, baud rate errors and solutions, double speed mode, data reception with interrupts, circular buffer, USART flags, debugging, and data frames.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/HWJqS9NjYIA">
+        <img src="https://img.youtube.com/vi/HWJqS9NjYIA/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 67 – AVR, Communication, USART - Part B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
   
 > [!TIP]
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
-- [aKaReZa 66 - AVR, Communication, USART - Part A](https://youtu.be/TJEfbymLoTs)  
-    ---  
-    Learn about USART features and specifications in the ATMega328 microcontroller, including baud rate calculation, registers, single character and string transmission, escape sequences, data frames, and differences in simulation and practical testing.
-
-- [aKaReZa 67 - AVR, Communication, USART - Part B](https://youtu.be/HWJqS9NjYIA)  
-    ---  
-    Continuation of USART communication, discussing escape sequences, byte reception, baud rate errors and solutions, double speed mode, data reception with interrupts, circular buffer, USART flags, debugging, and data frames.
-
 - [AVR Microntroller](https://github.com/aKaReZa75/AVR)
   ---  
     This repository contains comprehensive resources for AVR microcontrollers, including hardware schematics, software libraries, and educational projects.
-
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
