@@ -540,6 +540,23 @@ These macros help you detect communication errors related to framing and data ov
 # 🔗 Resources
   Here you'll find a collection of useful links and videos related to the topic of AVR microcontrollers.  
 
+```plaintext
+AVR, Communication, USART
+   ├── [aKaReZa 66 - AVR, Communication, USART - Part A]
+   │   ├─ Basics — Features, block diagram, registers.
+   │   ├─ BaudRate — Calculation and setup.
+   │   ├─ Data Tx — Sending characters and strings.
+   │   ├─ Formatting — Escape sequences and frame structure.
+   │   └─ Simulation — Software vs hardware testing.
+   │
+   └── [aKaReZa 67 - AVR, Communication, USART - Part B]
+       ├─ Data Rx — Receiving bytes and using interrupts.
+       ├─ Reliability — Baud errors, flags, circular buffer.
+       ├─ Speed — Double Speed mode usage.
+       ├─ Debugging — Data plotting and USART insights.
+       └─ Comparison — Simulation vs real-world behavior.
+```
+
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
