@@ -55,11 +55,16 @@ USART0 Overview
 │   │   ├─ Sources — RX Complete, TX Complete, Data Register Empty
 │   │   └─ Control — Enable, flag handling, and ISR examples
 │   │
-│   └─ [USART0 Data Registers]
-│       ├─ UDR0 — USART Data Register (Read/Write)
-│       ├─ Transmission — Data load and send
-│       └─ Reception — Data read and buffering
-│   
+│   ├─ [USART0 Data Registers]
+│   │   ├─ UDR0 — USART Data Register (Read/Write)
+│   │   ├─ Transmission — Data load and send
+│   │   └─ Reception — Data read and buffering
+│   │
+│   └─ [USART0 Error Handling]
+│       ├─ Registers — UCSR0A (FE0, DOR0, UPE0)
+│       ├─ Errors — Frame Error, Data Overrun, Parity Error
+│       └─ Handling — Error detection and safe recovery
+|
 ├── [API_Reference]
 │    ├─ File — usart.h / usart.c
 │    ├─ Functions — Init, Write, Puts, getChar, Flush
@@ -89,6 +94,10 @@ USART0 Overview
 - [USART0 Data Registers](./USART0_DataRegisters.md)
   ---
   Detailed description of UDR0 operation, including how data is buffered for transmission and reception, timing considerations, and tips for avoiding data loss.
+
+- [USART0 Error Handling](./USART0_ErrorHandling.md)**
+  ---
+  This file explains USART0 error flags in UCSR0A (Frame Error, Data Overrun, and Parity Error), how to detect them, and strategies for robust recovery in high-reliability systems.
 
 - [API_Reference.md](./API_Reference.md)
   ---
