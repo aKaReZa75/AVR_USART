@@ -95,11 +95,11 @@ USART0 Overview
   ---
   Detailed description of UDR0 operation, including how data is buffered for transmission and reception, timing considerations, and tips for avoiding data loss.
 
-- [USART0 Error Handling](./USART0_ErrorHandling.md)**
+- [USART0 Error Handling](./USART0_ErrorHandling.md)
   ---
   This file explains USART0 error flags in UCSR0A (Frame Error, Data Overrun, and Parity Error), how to detect them, and strategies for robust recovery in high-reliability systems.
 
-- [API_Reference.md](./API_Reference.md)
+- [API Reference](./API_Reference.md)
   ---
   This section provides a detailed description of the functions in the `usart.h` and `usart.c` files for handling USART communication on the ATmega328 microcontroller. Each function is designed to manage data transmission and reception through USART, as well as configure the necessary registers.
 
