@@ -79,6 +79,10 @@ USART0 Overview
     └─ [UDR0]   — Data register — Holds incoming or outgoing data
 ```
 
+> [!TIP]
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
+
 - [USART0 Modes](./USART0_Modes.md)
   ---
   This document provides a detailed explanation of all operating modes for USART0, including Asynchronous, Synchronous modes, along with the register configurations required and timing implications for each.
@@ -103,6 +107,9 @@ USART0 Overview
   ---
   This section provides a detailed description of the functions in the `usart.h` and `usart.c` files for handling USART communication on the ATmega328 microcontroller. Each function is designed to manage data transmission and reception through USART, as well as configure the necessary registers.
 
+- [AVR Microntroller](https://github.com/aKaReZa75/AVR)
+  ---  
+    This repository contains comprehensive resources for AVR microcontrollers, including hardware schematics, software libraries, and educational projects.
 
 ## **Videos Overview**
 ```plaintext
@@ -160,13 +167,6 @@ AVR, Communication, USART
   </tr>
 </table>
   
-> [!TIP]
-> The resources are detailed in the sections below.  
-> To access any of them, simply click on the corresponding blue link.
-
-- [AVR Microntroller](https://github.com/aKaReZa75/AVR)
-  ---  
-    This repository contains comprehensive resources for AVR microcontrollers, including hardware schematics, software libraries, and educational projects.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
